@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.body {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.sidebar {
+    display: flex;
+    width: 70px;
+    background-color: #ddd;
+    border-right: 1px solid #ddd;
+    flex-direction: column;
+
+}
+
+.sidebar>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    /* background: gray;
+    color: black; */
+    /* margin: auto;
+    display: block; */
+    margin-top: 10px;
+}
+
+.sidebar button:hover {
+    cursor: pointer;
+    background: gray;
+    color: black;
+}
+
+.top {
+    flex: 1;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* background-color: red; */
+    padding-top: 30px;
+
+}
+
+
+.bottom {
+    /* background-color: blue; */
+}
+
+.content {
+    flex: 1;
+}
+
+
+.ad {
+    height: 100px;
+    border-top: 1px solid #ddd
+        /* background-color: blue; */
+}
